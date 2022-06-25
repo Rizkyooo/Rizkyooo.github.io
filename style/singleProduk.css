@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+body{
+    background-color: rgb(250, 250, 250);
+}
+@media screen and (min-width:994px) {
+.form-control{
+    width: 400px;
+    }
+}
+
+@media screen and (max-width:994px) {
+    .navbar-nav{
+        text-align: center;
+    }
+}
+
+.form-control{
+    font-size: 14px;
+    }
+
+/*footer*/
+.icon-sosmed:hover{
+    transform: scale(1.1);
+    transition: 0.2s;
+
+}
+/*footer*/
+.load-more {
+    width: 150px;
+    color: blue;
+    display: block;
+    text-align: center;
+    margin: 20px auto;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid blue;
+    background-color: #fff;
+    
+  }
+  .load-more:hover {
+    transform: scale(1.1);
+    transition: .2s;
+    color: whitesmoke;
+    background-color: rgb(39, 125, 238);
+    border: 1px solid blue;
+    text-decoration: none;
+  }
+  /*produk*/
+.row-produk{
+    background-color: #fff;
+    padding: 5px;
+    margin: 0;
+    padding-top: 14px;
+}
+.garis-nama{
+    border-bottom: 5px solid rgb(39, 125, 238);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.harga{
+    color: rgb(39, 125, 238);
+}
+.pesanWA:hover{
+    transform: scale(1.04);
+    transition: .2s;
+
+
+}
+.btn-keranjang:hover{
+    transform: scale(1.04);
+    transition: .2s;
+
+}
+.image:hover{
+    transform: scale(1.08);
+    transition: .2s;
+}
+/*produk*/

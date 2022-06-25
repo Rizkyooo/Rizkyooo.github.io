@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+body{
+    background-color: rgb(250, 250, 250);
+}
+@media screen and (min-width:994px) {
+.form-control{
+    width: 400px;
+    }
+}
+
+@media screen and (max-width:994px) {
+    .navbar-nav{
+        text-align: center;
+    }
+}
+
+.form-control{
+    font-size: 14px;
+    }
+
+/*kategori*/
+.img-kategori{
+    width: 70px;
+    border-radius: 5px;
+}
+.row-container{
+    background-color: rgb(255, 255, 255);
+    margin: 0px;
+}
+
+.img-kategori:hover{
+    transform: scale(1.2);
+    transition: 0.2s;
+}
+/*kategori*/
+
+.img-fluid:hover{
+    transform: scale(1.2);
+    transition: 0.3s;
+
+
+}
+
+/*produk*/
+.card:hover{
+    border: 1px solid rgb(10, 14, 214);
+    transition: 0.1s;
+
+}
+.card:hover{
+    transform: scale(1.05);
+    transition: 0.2s;
+
+}
+/*produk*/
+
+/*footer*/
+.icon-sosmed:hover{
+    transform: scale(1.1);
+    transition: 0.2s;
+
+}
+/*footer*/
+.load-more {
+    width: 150px;
+    color: blue;
+    display: block;
+    text-align: center;
+    margin: 20px auto;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid blue;
+    background-color: #fff;
+    
+  }
+  .load-more:hover {
+    transform: scale(1.1);
+    transition: .2s;
+    color: whitesmoke;
+    background-color: rgb(39, 125, 238);
+    border: 1px solid blue;
+    text-decoration: none;
+  }
+  
